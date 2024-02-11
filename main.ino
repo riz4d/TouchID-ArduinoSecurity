@@ -1,3 +1,12 @@
+/*
+ * TouchID Arduino Security System
+ * Description: code utilizes an Adafruit fingerprint sensor module to unlock a system.
+ * Author: Mohamed Rizad
+ * Date: 11-02-2024 03:52:03
+ * Version: 1.0
+ * License: MIT License
+ */
+
 #include <Adafruit_Fingerprint.h>
 
 #if (defined(__AVR__) || defined(ESP8266)) && !defined(__AVR_ATmega2560__)
